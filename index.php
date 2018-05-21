@@ -103,7 +103,6 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
   return $theValue;
 }
 }
-
 mysql_select_db($database_koneksin, $koneksin);
 $query_rekusr = "SELECT * FROM loginmi";
 $rekusr = mysql_query($query_rekusr, $koneksin) or die(mysql_error());
@@ -155,7 +154,6 @@ $totalRows_rekusr = mysql_num_rows($rekusr);
             <div class="notifications-wrapper">
 <ul class="nav">
                
-                
               
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
